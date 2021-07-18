@@ -71,7 +71,7 @@ const Header = ({ isSidebarNav, toggleSidebarNav }) => {
           <button className="header__menubar" onClick={toggleSidebarNav}>
             <i className={`fas fa-${!isSidebarNav ? 'bars' : 'times'}`}></i>
           </button>
-          <Link to={'/'}>
+          <Link to='/'>
             <img src={logo} alt="Mumble Icon" />
           </Link>
         </div>
